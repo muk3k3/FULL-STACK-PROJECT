@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+/* =====================================================
+   OVERRIDE GLOBAL DE ANGULAR MATERIAL - COLORES CUSTOM
+   ===================================================== */
+
+/* Botón primary → azul #003cbe */
+.mat-mdc-raised-button.mat-primary,
+.mat-mdc-unelevated-button.mat-primary {
+  --mdc-protected-button-container-color: #003cbe !important;
+  --mdc-filled-button-container-color: #003cbe !important;
+  background-color: #003cbe !important;
+  color: #fff !important;
+}
+
+/* Botón warn → rojo (se mantiene como estaba) */
+.mat-mdc-raised-button.mat-warn {
+  background-color: #f44336 !important;
+  color: #fff !important;
+}
+
+/* Botón Volver: blanco con borde gris, texto oscuro */
+.btn-volver {
+  background-color: #f44336 !important;
+  color: #ffffff !important;
+  border: 1px solid #cccccc !important;
+  --mdc-protected-button-container-color: #ffffff !important;
+}
+
+.btn-volver:hover {
+  background-color: #f44336 !important;
+}
+
+/* Botón Guardar/Actualizar: azul #003cbe */
+.btn-guardar {
+  --mdc-protected-button-container-color: #003cbe !important;
+  --mdc-filled-button-container-color: #003cbe !important;
+  background-color: #003cbe !important;
+  color: #ffffff !important;
+}
+
+.btn-guardar:disabled {
+  background-color: #e0e0e0 !important;
+  color: #9e9e9e !important;
+  --mdc-protected-button-container-color: #e0e0e0 !important;
+}
+
+/* Íconos editar → azul */
+.btn-editar .mat-icon,
+.btn-editar {
+  color: #003cbe !important;
+}
+
+.btn-menu .mat-icon,
+.btn-menu {
+  color: #ffffff !important;
+}
+
+/* Íconos eliminar → rojo */
+.btn-eliminar .mat-icon,
+.btn-eliminar {
+  color: #f44336 !important;
+}
+
+.btn-total {
+  --mdc-protected-button-container-color: #cf0e58 !important;
+  --mdc-filled-button-container-color: #cf0e58 !important;
+  background-color: #cf0e58 !important;
+  color: #ffffff !important;
+}
