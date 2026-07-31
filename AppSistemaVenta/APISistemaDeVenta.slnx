@@ -1,9 +1,0 @@
-<Solution>
-  <Project Path="SistemaVenta.API/SistemaVenta.API.csproj" />
-  <Project Path="SistemaVenta.BLL/SistemaVenta.BLL.csproj" />
-  <Project Path="SistemaVenta.DAL/SistemaVenta.DAL.csproj" />
-  <Project Path="SistemaVenta.DTO/SistemaVenta.DTO.csproj" />
-  <Project Path="SistemaVenta.IOC/SistemaVenta.IOC.csproj" />
-  <Project Path="SistemaVenta.Model/SistemaVenta.Model.csproj" />
-  <Project Path="SistemaVenta.Utility/SistemaVenta.Utility.csproj" />
-</Solution>
